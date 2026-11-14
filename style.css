@@ -1,0 +1,57 @@
+.container1 {
+  display: flex;
+  width: 100%;
+  gap: 150px; /* space between buttons */
+  margin-top: 0px;
+  margin-inline: auto;
+  width: 400px;
+  opacity: 70%;
+}
+
+.container1 button {
+  flex: 1; /* each button grows equally to fill the width */
+}
+body {
+  background-image: url(kratie1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h3 {
+  text-align: center;
+  padding: 10px;
+  margin-inline: auto;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Angkor", serif;
+  margin-top: 50px;
+  font-size: xx-large;
+  color: rgb(187, 98, 21);
+  text-shadow: 5px 5px 5px rgb(13, 49, 10);
+}
+#About {
+  border-color: rgb(18, 39, 99);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(31, 22, 92);
+}
+#contact {
+  border-color: rgb(18, 39, 99);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(31, 22, 92);
+}
+#location {
+  border-color: rgb(18, 39, 99);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(31, 22, 92);
+}
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 400px;
+}
+
+footer p {
+    margin: 0;
+}
